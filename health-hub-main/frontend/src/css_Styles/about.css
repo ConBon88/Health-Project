@@ -1,0 +1,46 @@
+/* About.css */
+
+div.about-container {
+  left: 30%;
+  height: 580px;
+  width: 500px;
+  margin: 5%;
+  position: relative;
+  align-items: center;
+  padding: 20px;
+  border-color: var(--primary);
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+  
+  .about-header {
+    left: 30%;
+    margin-bottom: 20px;
+    font-size: 24px; /* Adjust size as needed */
+    color: #333;
+    align-items: center;
+    position: relative;
+  }
+  
+  .about-text {
+    padding: 20px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  /*
+  Integration with Your App
+  To integrate this new About page into your existing application, you will need to:
+  
+  Import and Route: Add the AboutPage to your app's routing system, making it accessible from the navigation menu or any other part of the app.
+  
+  Linking: Provide a link to the About page in the menu or header of your app for easy navigation
+  
+  */
